@@ -1,7 +1,7 @@
 # Use the standard Microsoft .NET Core container
 FROM microsoft/dotnet
  
-# Copy our code from the "/src/MyWebApi" folder to the "/app" folder in our container
+# Copy our code to the "/app" folder in our container
 WORKDIR /app
 COPY ./src/StatePensionAgeCalculatorApi .
  
