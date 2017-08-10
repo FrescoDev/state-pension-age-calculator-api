@@ -20,7 +20,7 @@ Written in dot net core.
 
 1. Clone the repo and navigate to the repository's directory
 2. Run ```docker build -t state-pension-calculator-api .``` to build the docker image
-3. Run  ```docker run -t -p state-pension-calculator-api``` to run the docker container. It will run on localhost, port 8080 as default.
+3. Run  ```docker run -t -p 8080:80 state-pension-calculator-api``` to run the docker container. It will run on localhost, port 8080 as default.
 
 ## Running the Tests
 
